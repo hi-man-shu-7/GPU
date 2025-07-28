@@ -27,6 +27,7 @@ for student in students_data:
     known_face_encodings.append(student_face_encoding)
     known_face_names.append(student["name"])
 
+
 # Initialize the webcam
 video_capture = cv2.VideoCapture(0)
 video_capture.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
